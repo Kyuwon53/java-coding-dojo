@@ -1,7 +1,9 @@
+package _202206.week1.bigNumber;
+
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-class Solution {
+class BigNumber {
     public String solution(int[] numbers) {
         String answer = "";
         String[] targets = new String[numbers.length];
